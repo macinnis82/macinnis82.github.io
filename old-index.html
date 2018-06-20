@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">       
+    <head>
+        <title>My Portfolio Page</title>
+
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+            body {
+                padding-top: 40px;
+                font-family: 'Work Sans', serif;
+            }
+
+            .section {
+                padding-top: 60px;
+                margin-top: -60px;
+            }
+
+            hr {
+                height:8px;
+                border: 2px dashed #999;
+            }
+
+            .aboutme {
+                padding: 7px;
+                font-size: 15px;
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            .social {
+                padding: 0;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+            }
+
+            .social > li {
+                display: inline-block;
+                margin-right: 1em;
+                margin-left: 1em;
+            }
+
+            .social-button {
+                padding-bottom: 10px;
+            }
+        </style>
+    </head>
+
+    <body translate="no">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">Ryan's Place</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+        
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+        
+        <div id="jumbotron" class="jumbotron">
+            <div class="container">
+            <h1 class="text-center">Hi I'm Ryan!</h1>
+            <h3 class="lead text-center">This is my personal portfolio page for the FreeCodeCamp Challenge!</h3>
+            </div>
+        </div>
+        
+        <!-- About Me section -->
+        <div id="about" class="container">
+            <hr />
+            <h2 class="text-center">About Me</h2>
+            <div class="row">
+            <div class="col-9">
+                <p class="aboutme">My name is Ryan and I'm an aspiring Developer. I'm currently working as a Data Analyst with <a href="http://www.libertymutual.com" target="_blank"> Liberty Mutual </a> in the LMB Tech group.</p>
+                <p class="aboutme">I am a huge <a href="https://disneyworld.disney.go.com" target="_blank">Disney</a> fan. I've been to the "house of the mouse" more than 40 times. My family and I try to take 2 trips a year. My wife and I joined the <a href="https://disneyvacationclub.disney.go.com"
+                    target="_blank">Disney Vacation Club</a> in 2013 so we always have a place to stay when we travel down there.</p>
+                <p class="aboutme">I'm excited to work on the FreeCodeCamp project as it is an opportunity for me to continue to learn and improve my coding skills as well as network and communicate with great people in a friendly professional community.</p>
+            </div>
+            <div class="col-3">
+                <img src="https://i.imgur.com/cBhaN7d.jpg" alt="My Family and I" class="rounded img-thumbnail mx-auto d-block photo" />
+            </div>
+            </div>
+        </div>
+        
+        <!-- Portfolio section -->
+        <div id="portfolio" class="container">
+            <hr />
+            <h2 class="text-center">Portfolio</h2>
+            <div class="row">
+            <div class="col-6">
+                <img alt="Project#1" src="https://i.imgur.com/FQAJ4Kw.jpg" class="rounded img-thumbnail mx-auto d-block" />
+                <h4 class="text-center">Project #1</h4>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            </div>
+            <div class="col-6">
+                <img alt="Project#2" src="https://i.imgur.com/2kVQB47.jpg" class="rounded img-thumbnail mx-auto d-block" />
+                <h4 class="text-center">Project #2</h4>
+                <p> Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-6">
+                <img alt="Project#3" src="https://i.imgur.com/s4G4Wqu.jpg" class="rounded img-thumbnail mx-auto d-block" />
+                <h4 class="text-center">Project #3</h4>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            </div>
+            <div class="col-6">
+                <img alt="Project#4" src="https://i.imgur.com/04JrSyo.jpg" class="rounded img-thumbnail mx-auto d-block " />
+                <h4 class="text-center">Project #4</h4>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+            </div>
+            </div>
+        </div>
+        
+        <!-- Contact Me section -->
+        <div id="contact" class="container">
+            <hr />
+            <h2 class="text-center">Contact Me</h2>
+            <div class="row">
+            <div class="col-2">
+            </div>    
+            <div class="col-8">
+                <form role="form">
+                <div class="form-group">
+                    <label for="InputEmail">E-Mail Address: </label>
+                    <input type="email" class="form-control" id="InputEmail" placeholder="gordon@hayward.com" />
+                </div>
+                <div class="form-group">
+                            <label for="InputName">Name: </label>
+                            <input type="text" class="form-control" id="InputName" placeholder="Gordon Hayward" />
+                        </div>
+                <div class="form-group">
+                    <label for="InputMessage">Message: </label>
+                    <input type="textarea" class="form-control" id="InputMessage" rows=6 placeholder="Please type your message here ..." />
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+                <div class="col-2">
+            </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer id="footer" class="container">
+            <hr />
+            <div class="row">
+            <div class="col-12">
+                <h3 class="text-center">Catch me on the Web</h3>
+            </div>
+            <div class="col-12">
+                <ul class="social">
+                <li class="social-button"><a class="btn btn-outline-info btn-md" href="https://www.linkedin.com/in/ryan-macinnis" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+                <li class="social-button"><a class="btn btn-outline-info btn-md" href="https://github.com/macinnis82" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i> GitHub</a></li>
+                <li class="social-button"><a class="btn btn-outline-info btn-md" href="https://www.freecodecamp.org/macinnis82" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i> FreeCodeCamp</a></li>
+                <li class="social-button"><a class="btn btn-outline-info btn-md" href="https://codepen.io/macinnis82/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i> CodePen</a></li>
+                <li class="social-button"><a class="btn btn-outline-info btn-md" href="https://www.facebook.com/macinnis82" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="col-sm-12">
+            <p class="text-center">©
+                <script>
+                document.write(new Date().getFullYear());
+                </script> All Rights Reserved</p>
+            </div>      
+        </footer>
+
+        <script src='https://use.fontawesome.com/e08b728cfc.js'></script>
+    </body>
+</html>
