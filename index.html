@@ -10,9 +10,27 @@
     crossorigin="anonymous">
   <style>
     .section-footer .fa-2x {
-        margin: 5px 10px;
-      };
-    </style>
+      margin: 5px 10px;
+    }
+
+    .boxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 1rem;
+    }
+
+    .boxes div {
+      font-size: 2rem;
+      border: 3px #fff solid;
+      padding: 1.5rem 2.5rem;
+      margin-bottom: 3rem;
+      transition: all 0.5s ease-out;
+    }
+
+    ;
+  </style>
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ryan's Place</title>
@@ -55,8 +73,7 @@
   <div class="section blue lighten-4">
     <div class="row container">
       <h2 class="white-text darken-3 header center">Hi I'm Ryan</h2>
-      <p class="white-text center">Parallax is an effect where the background content or image in this case, is moved
-        at a different speed than the foreground content while scrolling.</p>
+      <p class="white-text center">Data Engineer, Aspiring Web Developer, Data Analyst & Quick Thinker</p>
     </div>
   </div>
   <div class="parallax-container">
@@ -71,8 +88,8 @@
       </div>
       <div class="row">
         <div class="col s12 m7">
-          <p class="flowtext">My name is Ryan and I'm an aspiring Developer. I'm currently working as a Senior Data
-            Analyst with <a href="http://www.lfg.com" target="_blank"> Lincoln Financial Group </a> in the Group
+          <p class="flowtext">My name is Ryan and I'm an aspiring Web Developer. I'm currently working as a Software
+            Developer with <a href="http://www.lfg.com" target="_blank"> Lincoln Financial Group </a> in the Group
             Protection IT group.</p>
           <p class="flowtext">I am a huge <a href="https://disneyworld.disney.go.com" target="_blank">Disney</a> fan.
             I've been to the "house of the mouse" more than 50 times. My family and I try to take 2 trips a year. My
@@ -81,7 +98,7 @@
           <!-- <p class="flowtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum hic quidem in, minus dignissimos qui dolor vel reprehenderit culpa.</p> -->
         </div>
         <div class="col s12 m5">
-          <img src="https://i.imgur.com/cBhaN7dm.jpg" class="responsive-image" />
+          <img src="https://i.imgur.com/mt3O7uE.jpg" class="responsive-img" />
         </div>
       </div>
     </div>
@@ -164,6 +181,17 @@
       <div class="row">
         <h4 class="center">Contact Me</h4>
       </div>
+      <div class="boxes">
+        <div>
+          <span class="text-secondary">Email: </span>
+          MacInnis82@gmail.com
+        </div>
+        <div>
+          <span class="text-secondary">Phone: </span>
+          978-360-8596
+        </div>
+      </div>
+      <!--
       <form class="col s12" action="https://formspree.io/macinnis82@gmail.com" method="POST">
         <div class="row">
           <div class="input-field col s6">
@@ -193,6 +221,7 @@
           </div>
         </div>
       </form>
+      -->
       <!-- <button class="btn waves-effect waves-light" type="submit" value="Send">Submit
             <i class="material-icons right">send</i>
         </button> -->
